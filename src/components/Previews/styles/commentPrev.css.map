@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,uGAAI;AAUZ,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;EACf,gBAAgB,EAVN,OAAe;CAkB5B;;AAVD,AAGI,QAHI,CAGJ,EAAE,CAAC;EACC,gBAAgB,EAVV,OAAiB;EAWvB,KAAK,EAZC,OAAiB;CAa1B;;AANL,AAOI,QAPI,CAOJ,MAAM,CAAC;EACH,KAAK,EAdC,OAAiB;CAe1B",
+    "sources": [
+        "commentPrev.scss"
+    ],
+    "names": [],
+    "file": "commentPrev.css"
+}

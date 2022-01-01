@@ -1,0 +1,84 @@
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Nunito&family=Raleway&display=swap");
+//colour scheme default
+$primary-050: hsl(0, 0%, 99%);
+$primary-100: hsl(38, 40%, 95%);
+$primary-400: hsl(76, 23%, 60%);
+$primary-600: hsl(61, 27%, 34%);
+$primary-900: hsl(38, 60%, 5%);
+//drop shadow
+$drop-shadow1: rgba(0, 0, 0, 0.04);
+$drop-shadow2: rgba(0, 0, 0, 0.25);
+
+.preview {
+  margin-bottom: 15px;
+  .comment {
+    margin-top: 5px;
+    background-color: $primary-050;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 $drop-shadow1, 0 1px 1px $drop-shadow2;
+    h4 {
+        padding-left: 5px;
+      background-color: $primary-400;
+      color: $primary-100;
+    }
+    .content {
+     padding: 10px;
+        .mediaTitle {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: $primary-600;
+            margin-bottom: 10px;
+
+            &:hover {
+              box-shadow: 0 -1px 0 $drop-shadow1, 0 1px 1px $drop-shadow2;
+            }
+        }
+    .likes {
+      color: $primary-400;
+    }}
+  }
+  .media {
+      margin-top: 5px;
+      background-color: $primary-050;
+      min-height: 20em;
+      max-height: 27em;
+      border-radius: 3px;
+      box-shadow: 0 -1px 0 $drop-shadow1, 0 1px 1px $drop-shadow2;
+
+        h4 {
+        padding-left: 5px;
+        font-size: 1.5em;
+        background-color: $primary-400;
+        color: $primary-050;
+      }
+
+      .content {
+        margin: 15px;
+        padding-bottom: 15px;
+        h5 {
+          margin-bottom: 15px;
+        }
+        
+      }
+  }
+ .comment-strip {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: $primary-050;
+   padding: 5px;
+   min-height: 6em;
+   border-radius: 3px;
+   box-shadow: 0 -1px 0 $drop-shadow1, 0 1px 1px $drop-shadow2;
+
+   button {
+     background-color: $primary-600;
+     width: 1em;
+     height: 1em;
+     border: none;
+     border-radius: 3px;
+     box-shadow: 0 -1px 0 $drop-shadow1, 0 1px 1px $drop-shadow2;
+   }
+ }
+}

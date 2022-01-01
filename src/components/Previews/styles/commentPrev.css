@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Nunito&family=Raleway&display=swap");
+.comment {
+  margin-top: 5px;
+  background-color: #fcfcfc;
+}
+
+.comment h4 {
+  background-color: #a4b082;
+  color: #f7f4ed;
+}
+
+.comment .likes {
+  color: #a4b082;
+}
+/*# sourceMappingURL=commentPrev.css.map */

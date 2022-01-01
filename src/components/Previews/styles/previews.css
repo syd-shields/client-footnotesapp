@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Nunito&family=Raleway&display=swap");
+.preview {
+  margin-bottom: 15px;
+}
+
+.preview .comment {
+  margin-top: 5px;
+  background-color: #fcfcfc;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.preview .comment h4 {
+  padding-left: 5px;
+  background-color: #a4b082;
+  color: #f7f4ed;
+}
+
+.preview .comment .content {
+  padding: 10px;
+}
+
+.preview .comment .content .mediaTitle {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #6d6e3f;
+  margin-bottom: 10px;
+}
+
+.preview .comment .content .mediaTitle:hover {
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.preview .comment .content .likes {
+  color: #a4b082;
+}
+
+.preview .media {
+  margin-top: 5px;
+  background-color: #fcfcfc;
+  min-height: 20em;
+  max-height: 27em;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.preview .media h4 {
+  padding-left: 5px;
+  font-size: 1.5em;
+  background-color: #a4b082;
+  color: #fcfcfc;
+}
+
+.preview .media .content {
+  margin: 15px;
+  padding-bottom: 15px;
+}
+
+.preview .media .content h5 {
+  margin-bottom: 15px;
+}
+
+.preview .comment-strip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fcfcfc;
+  padding: 5px;
+  min-height: 6em;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.preview .comment-strip button {
+  background-color: #6d6e3f;
+  width: 1em;
+  height: 1em;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=previews.css.map */
